@@ -1,4 +1,4 @@
-name: Build and Deploy
+ame: Build and Deploy
 on:
   push:
     branches:
@@ -13,4 +13,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: prod # The branch the action should deploy to.
-          folder: . # The folder the action should deploy.
+          folder: . # Thr the action should deploy.
